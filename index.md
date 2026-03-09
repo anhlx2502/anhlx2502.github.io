@@ -11,5 +11,4 @@ Topics I write about:
 - Linux
 - Kubernetes
 - Ceph
-- OpenStack
 - Cloud Infrastructure

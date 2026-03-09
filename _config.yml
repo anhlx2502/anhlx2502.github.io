@@ -7,14 +7,14 @@ remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-include-cache
 
+minimal_mistakes_skin: dark
+
+search: true
+
 author:
   name: Anh Le
   bio: System Engineer | Cloud Infrastructure
   location: Vietnam
-  email: anhlx2502@gmail.com
-
-minimal_mistakes_skin: dark
-search: true
 
 markdown: kramdown
 highlighter: rouge

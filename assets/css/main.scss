@@ -140,3 +140,89 @@
 .author__urls .fa-location-dot {
   color: #f87171;
 }
+
+/* ===== SIDEBAR FIX ===== */
+
+.sidebar {
+  background: #3f4a54;
+  color: #ffffff;
+}
+
+.author__name {
+  color: #ffffff;
+}
+
+.author__bio {
+  color: #d1d5db;
+}
+
+.author__urls li a {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.author__urls li a:hover {
+  color: #60a5fa;
+}
+
+/* icon */
+
+.author__urls i {
+  color: #cbd5e1;
+}
+
+/* location */
+
+.fa-location-dot {
+  color: #f87171;
+}
+
+/* ===== HERO TEXT ===== */
+
+.page__content p {
+  font-size: 17px;
+  color: #374151;
+  line-height: 1.7;
+}
+
+/* ===== PAGINATION FIX ===== */
+
+.pagination {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pagination a,
+.pagination span {
+  padding: 10px 16px;
+  margin: 4px;
+  border-radius: 6px;
+  background: #e5e7eb;
+  color: #111827;
+  font-weight: 600;
+}
+
+.pagination a:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+.pagination .current {
+  background: #2563eb;
+  color: white;
+}
+
+.archive__item {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid #334155;
+}
+
+.archive__item-title a {
+  color: #38bdf8;
+}
+
+.archive__item-excerpt {
+  color: #cbd5e1;
+}

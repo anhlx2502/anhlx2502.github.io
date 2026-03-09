@@ -28,6 +28,10 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com"
 
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@anhlx2502"
+      
 markdown: kramdown
 highlighter: rouge
 

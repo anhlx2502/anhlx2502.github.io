@@ -4,7 +4,7 @@ description: "System Engineer | Cloud | Kubernetes | Ceph"
 url: "https://anhlx2502.github.io"
 baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+remote_theme: "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin: "dark"
 
@@ -12,11 +12,11 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
 
+paginate: 5
+paginate_path: "/page:num/"
+
 search: true
 powered_by: false
-
-paginate: 5
-paginate_path: /page:num/
 
 markdown: kramdown
 highlighter: rouge
@@ -33,19 +33,9 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/anhlx2502"
 
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com"
-
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@anhlx2502"
-
-atom_feed:
-  hide: true
-
-footer:
-  links: []
 
 include:
   - _pages
@@ -58,6 +48,5 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
       share: false
       related: true

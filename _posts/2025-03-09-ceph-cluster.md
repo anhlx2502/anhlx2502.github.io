@@ -1,6 +1,6 @@
 ---
 title: "Deploy Ceph Cluster"
-date: 2026-03-09
+date: 2025-03-09
 categories: ceph
 tags: [ceph, storage]
 layout: single

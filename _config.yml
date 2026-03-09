@@ -4,7 +4,7 @@ description: "System Engineer | Cloud | Kubernetes | Ceph"
 url: "https://anhlx2502.github.io"
 baseurl: ""
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 minimal_mistakes_skin: "dark"
 
@@ -27,6 +27,7 @@ author:
   bio: "System Engineer | Cloud Infrastructure"
   location: "Vietnam"
   email: "anhlx2502@gmail.com"
+
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -60,6 +61,3 @@ defaults:
       comments: false
       share: false
       related: true
-
-sass:
-  style: compressed

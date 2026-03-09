@@ -1,13 +1,22 @@
 ---
-title: "My First YouTube Video"
+title: "Install Ceph Cluster Step by Step"
 date: 2026-03-09
-categories: youtube
-tags: [youtube]
-layout: single
+categories: [ceph]
+tags: [storage, linux]
 ---
 
-In this post I show how to embed a YouTube video.
+Ceph is a distributed storage system widely used in cloud infrastructure.
 
-{% include video id="dQw4w9WgXcQ" provider="youtube" %}
+## Architecture
 
-This video will automatically resize on desktop and mobile.
+- MON
+- OSD
+- MGR
+
+## Install
+
+```bash
+apt install ceph
+```
+## Demo
+<div class="video-container"> <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe> </div> 

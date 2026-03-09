@@ -2,16 +2,16 @@
 title: "About"
 layout: single
 permalink: /about/
-author_profile: true
 ---
 
 Hi, I'm **Anh Le**.
 
-System Engineer focusing on:
+System Engineer working with:
 
-- Linux
 - Kubernetes
-- Ceph
+- Ceph Storage
 - Cloud Infrastructure
+- Linux
+- DevOps
 
-This blog shares technical notes, tutorials, and projects.
+This blog shares my technical notes and lab experiments.

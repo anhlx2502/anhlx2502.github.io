@@ -1,16 +1,17 @@
 ---
-layout: single
 title: "About"
+layout: single
 permalink: /about/
 author_profile: true
 ---
 
-Hi, I'm Anh Le.
+Hi, I'm **Anh Le**.
 
 System Engineer focusing on:
 
 - Linux
 - Kubernetes
 - Ceph
-- OpenStack
 - Cloud Infrastructure
+
+This blog shares technical notes, tutorials, and projects.

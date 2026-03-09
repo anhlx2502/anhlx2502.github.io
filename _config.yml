@@ -1,27 +1,32 @@
-title: Anh Le Tech Blog
-name: Anh Le
-description: System Engineer | Cloud | Kubernetes | Ceph
+title: "Anh Le Tech Blog"
+name: "Anh Le"
+description: "System Engineer | Cloud | Kubernetes | Ceph"
+url: "https://anhlx2502.github.io"
+baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
 
+minimal_mistakes_skin: "dark"
+
 plugins:
   - jekyll-include-cache
+  - jekyll-paginate
 
-minimal_mistakes_skin: dark
+search: true
+powered_by: false
 
 paginate: 5
 paginate_path: /page:num/
 
-search: true
-
-powered_by: false
+markdown: kramdown
+highlighter: rouge
 
 author:
-  name: Anh Le
+  name: "Anh Le"
   avatar: "/assets/images/avatar.png"
   bio: "System Engineer | Cloud Infrastructure"
-  location: Vietnam
-  email: anhlx2502@gmail.com
+  location: "Vietnam"
+  email: "anhlx2502@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -35,14 +40,23 @@ author:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@anhlx2502"
 
-markdown: kramdown
-highlighter: rouge
-
-  
 atom_feed:
   hide: true
+
 footer:
   links: []
 
 include:
   - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true

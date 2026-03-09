@@ -3,30 +3,87 @@
 
 @import "minimal-mistakes";
 
-/* Post card */
+/* ===== SIDEBAR PROFILE ===== */
+
+.sidebar {
+  background: #1f2933;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.sidebar .author__name {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.sidebar .author__bio {
+  color: #cbd5e1;
+}
+
+.sidebar a {
+  color: #9bd1ff;
+}
+
+.sidebar a:hover {
+  color: #38bdf8;
+}
+
+/* ===== POST CARD ===== */
 
 .archive__item {
-  background: #111;
-  padding: 15px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  transition: all .2s;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+  border: 1px solid #334155;
+  transition: all 0.25s ease;
 }
 
 .archive__item:hover {
   transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
 }
 
-/* Responsive youtube */
+/* title */
 
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+.archive__item-title a {
+  color: #38bdf8;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.video-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.archive__item-title a:hover {
+  color: #7dd3fc;
+}
+
+/* excerpt */
+
+.archive__item-excerpt {
+  color: #cbd5e1;
+}
+
+/* meta */
+
+.page__meta {
+  color: #94a3b8;
+}
+
+/* ===== PAGINATION ===== */
+
+.pagination {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pagination a {
+  padding: 8px 14px;
+  background: #1e293b;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.pagination a:hover {
+  background: #38bdf8;
+  color: white;
 }

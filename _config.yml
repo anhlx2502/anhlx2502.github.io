@@ -12,7 +12,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
 
-paginate: 5
+paginate: 3
 paginate_path: /page:num/
 
 search: true

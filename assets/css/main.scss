@@ -145,20 +145,24 @@ body {
   color: white;
 }
 
-/* ================================
-   MOBILE FIX
-================================ */
+/* ===== MOBILE FIX FOLLOW BUTTON ===== */
 
 @media (max-width: 768px) {
 
-  /* popup card */
+  /* giữ popup ẩn mặc định */
 
   .author__urls-wrapper .author__urls {
-    display: block !important;
+    display: none;
+  }
+
+  /* khi bấm FOLLOW thì mới hiện */
+
+  .author__urls-wrapper.open .author__urls {
+    display: block;
     background: #ffffff;
     padding: 14px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   }
 
   .author__urls li {
@@ -177,12 +181,6 @@ body {
   .author__urls li i {
     width: 20px;
     color: #3b82f6;
-  }
-
-  /* hide follow button */
-
-  .author__urls-wrapper button {
-    display: none;
   }
 
 }

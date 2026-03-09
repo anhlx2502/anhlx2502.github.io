@@ -1,48 +1,85 @@
 ---
 ---
-
 @import "minimal-mistakes";
 
-/* ===== SIDEBAR PROFILE ===== */
+/* ================================
+   GLOBAL
+================================ */
+
+body {
+  background: #f3f4f6;
+}
+
+/* ================================
+   SIDEBAR PROFILE
+================================ */
 
 .sidebar {
-  background: #1f2933;
-  padding: 20px;
+  background: #1f2937;
+  padding: 22px;
   border-radius: 14px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
 }
 
-.sidebar .author__name {
+/* name */
+
+.author__name {
   color: #ffffff;
   font-size: 18px;
+  font-weight: 600;
 }
 
-.sidebar .author__bio {
+/* job */
+
+.author__bio {
   color: #cbd5e1;
+  font-size: 14px;
 }
 
-.sidebar a {
-  color: #9bd1ff;
+/* links */
+
+.author__urls li {
+  margin: 6px 0;
 }
 
-.sidebar a:hover {
+.author__urls li a {
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+.author__urls li a:hover {
   color: #38bdf8;
 }
 
-/* ===== POST CARD ===== */
+/* icons */
+
+.author__urls i {
+  width: 22px;
+  color: #38bdf8;
+}
+
+/* location icon */
+
+.fa-location-dot {
+  color: #f87171;
+}
+
+/* ================================
+   POST CARD
+================================ */
 
 .archive__item {
   background: #1e293b;
-  padding: 20px;
+  padding: 22px;
   border-radius: 14px;
-  margin-bottom: 22px;
   border: 1px solid #334155;
+  margin-bottom: 22px;
   transition: all 0.25s ease;
 }
 
 .archive__item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
 
 /* title */
@@ -69,26 +106,9 @@
   color: #94a3b8;
 }
 
-/* ===== PAGINATION ===== */
-
-.pagination {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.pagination a {
-  padding: 8px 14px;
-  background: #1e293b;
-  border-radius: 6px;
-  margin: 4px;
-}
-
-.pagination a:hover {
-  background: #38bdf8;
-  color: white;
-}
-
-/* ===== HERO TEXT ===== */
+/* ================================
+   HERO TEXT
+================================ */
 
 .page__content p {
   font-size: 17px;
@@ -96,96 +116,9 @@
   line-height: 1.7;
 }
 
-/* ===== SIDEBAR PROFILE ===== */
-
-.sidebar {
-  background: #374151;
-  color: #e5e7eb;
-}
-
-/* name */
-
-.author__name {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-/* job title */
-
-.author__bio {
-  color: #d1d5db;
-}
-
-/* sidebar links */
-
-.author__urls li a {
-  color: #e5e7eb;
-  font-size: 15px;
-}
-
-/* hover */
-
-.author__urls li a:hover {
-  color: #38bdf8;
-}
-
-/* icon */
-
-.author__urls i {
-  color: #9ca3af;
-}
-
-/* location */
-
-.author__urls .fa-location-dot {
-  color: #f87171;
-}
-
-/* ===== SIDEBAR FIX ===== */
-
-.sidebar {
-  background: #3f4a54;
-  color: #ffffff;
-}
-
-.author__name {
-  color: #ffffff;
-}
-
-.author__bio {
-  color: #d1d5db;
-}
-
-.author__urls li a {
-  color: #ffffff;
-  font-weight: 500;
-}
-
-.author__urls li a:hover {
-  color: #60a5fa;
-}
-
-/* icon */
-
-.author__urls i {
-  color: #cbd5e1;
-}
-
-/* location */
-
-.fa-location-dot {
-  color: #f87171;
-}
-
-/* ===== HERO TEXT ===== */
-
-.page__content p {
-  font-size: 17px;
-  color: #374151;
-  line-height: 1.7;
-}
-
-/* ===== PAGINATION FIX ===== */
+/* ================================
+   PAGINATION
+================================ */
 
 .pagination {
   text-align: center;
@@ -212,56 +145,44 @@
   color: white;
 }
 
-.archive__item {
-  background: #1e293b;
-  border-radius: 14px;
-  padding: 20px;
-  border: 1px solid #334155;
-}
-
-.archive__item-title a {
-  color: #38bdf8;
-}
-
-.archive__item-excerpt {
-  color: #cbd5e1;
-}
-
-.author__urls i {
-  width: 20px;
-  color: #38bdf8;
-}
-
-/* FIX AUTHOR POPUP MOBILE */
+/* ================================
+   MOBILE FIX
+================================ */
 
 @media (max-width: 768px) {
 
+  /* popup card */
+
   .author__urls-wrapper .author__urls {
     display: block !important;
-    background: #4b5563;
-    padding: 12px;
+    background: #ffffff;
+    padding: 14px;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
 
   .author__urls li {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .author__urls li a {
-    display: inline-block;
-    color: #ffffff;
+    color: #111827;
     font-size: 15px;
+    font-weight: 500;
   }
 
   .author__urls li i {
     width: 20px;
-    color: #60a5fa;
+    color: #3b82f6;
   }
+
+  /* hide follow button */
 
   .author__urls-wrapper button {
     display: none;
   }
+
 }

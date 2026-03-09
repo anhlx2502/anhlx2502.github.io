@@ -11,6 +11,8 @@ minimal_mistakes_skin: dark
 
 search: true
 
+powered_by: false
+
 author:
   name: Anh Le
   avatar: "/assets/images/avatar.png"
@@ -26,9 +28,6 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com"
 
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:anhlx2502@gmail.com"
 markdown: kramdown
 highlighter: rouge
 

@@ -226,3 +226,42 @@
 .archive__item-excerpt {
   color: #cbd5e1;
 }
+
+.author__urls i {
+  width: 20px;
+  color: #38bdf8;
+}
+
+/* FIX AUTHOR POPUP MOBILE */
+
+@media (max-width: 768px) {
+
+  .author__urls-wrapper .author__urls {
+    display: block !important;
+    background: #4b5563;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .author__urls li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .author__urls li a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .author__urls li i {
+    width: 20px;
+    color: #60a5fa;
+  }
+
+  .author__urls-wrapper button {
+    display: none;
+  }
+}

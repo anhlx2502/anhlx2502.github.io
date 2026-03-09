@@ -1,17 +1,13 @@
 ---
-title: "My First YouTube Video Demo"
+title: "My First YouTube Video"
 date: 2026-03-09
 categories: youtube
-tags: [youtube, demo]
+tags: [youtube]
 layout: single
 ---
 
-In this post I show how to embed a YouTube video in the blog.
+In this post I show how to embed a YouTube video.
 
-Below is a demo video.
+{% include video id="dQw4w9WgXcQ" provider="youtube" %}
 
-<iframe width="100%" height="400"
-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-frameborder="0"
-allowfullscreen>
-</iframe>
+This video will automatically resize on desktop and mobile.

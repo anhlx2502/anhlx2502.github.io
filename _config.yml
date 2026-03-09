@@ -9,6 +9,9 @@ plugins:
 
 minimal_mistakes_skin: dark
 
+paginate: 5
+paginate_path: /page:num/
+
 search: true
 
 powered_by: false
@@ -31,10 +34,11 @@ author:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@anhlx2502"
-      
+
 markdown: kramdown
 highlighter: rouge
 
+  
 atom_feed:
   hide: true
 footer:

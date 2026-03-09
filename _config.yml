@@ -61,5 +61,5 @@ defaults:
       share: false
       related: true
 
-head_scripts:
-  - /assets/css/custom.css
+sass:
+  style: compressed

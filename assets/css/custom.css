@@ -1,36 +1,32 @@
-.sidebar-widget {
-  margin-top: 20px;
+/* Video responsive */
+iframe,
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
 }
 
-.sidebar-title {
-  font-size: 18px;
-  margin-bottom: 10px;
+/* Sidebar Recent Posts */
+.sidebar .nav__list {
+  background: #111;
+  border-radius: 12px;
+  padding: 15px;
 }
 
-.recent-posts {
-  list-style: none;
-  padding: 0;
+.sidebar .nav__list a {
+  color: #ddd;
 }
 
-.recent-item {
-  padding: 8px 0;
-  border-bottom: 1px solid #333;
+.sidebar .nav__list a:hover {
+  color: #4db6ff;
 }
 
-.recent-item a {
-  font-weight: 600;
-  text-decoration: none;
+/* Post card hover */
+.archive__item {
+  transition: transform .2s;
 }
 
-.recent-item a:hover {
-  color: #58a6ff;
-}
-
-.recent-meta {
-  font-size: 12px;
-  color: #999;
-}
-
-.recent-tags {
-  margin-left: 5px;
+.archive__item:hover {
+  transform: translateY(-3px);
 }

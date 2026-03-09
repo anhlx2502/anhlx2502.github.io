@@ -13,11 +13,29 @@ search: true
 
 author:
   name: Anh Le
-  bio: System Engineer | Cloud Infrastructure
+  avatar: "/assets/images/avatar.png"
+  bio: "System Engineer | Cloud Infrastructure"
   location: Vietnam
+  email: anhlx2502@gmail.com
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/anhlx2502"
 
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com"
+
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:anhlx2502@gmail.com"
 markdown: kramdown
 highlighter: rouge
+
+atom_feed:
+  hide: true
+footer:
+  links: []
 
 include:
   - _pages

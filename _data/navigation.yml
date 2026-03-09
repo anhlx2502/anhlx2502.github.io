@@ -2,9 +2,6 @@ main:
   - title: "Home"
     url: /
 
-  - title: "All Posts"
-    url: /
-
   - title: "Categories"
     url: /categories/
 

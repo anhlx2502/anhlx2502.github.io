@@ -87,3 +87,56 @@
   background: #38bdf8;
   color: white;
 }
+
+/* ===== HERO TEXT ===== */
+
+.page__content p {
+  font-size: 17px;
+  color: #374151;
+  line-height: 1.7;
+}
+
+/* ===== SIDEBAR PROFILE ===== */
+
+.sidebar {
+  background: #374151;
+  color: #e5e7eb;
+}
+
+/* name */
+
+.author__name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* job title */
+
+.author__bio {
+  color: #d1d5db;
+}
+
+/* sidebar links */
+
+.author__urls li a {
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+/* hover */
+
+.author__urls li a:hover {
+  color: #38bdf8;
+}
+
+/* icon */
+
+.author__urls i {
+  color: #9ca3af;
+}
+
+/* location */
+
+.author__urls .fa-location-dot {
+  color: #f87171;
+}

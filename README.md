@@ -1,3 +1,4 @@
+123456
 # Hugo Blog Setup
 
 Hugo is a fast and flexible static site generator written in Go. This guide will help you set up a new blog using Hugo.

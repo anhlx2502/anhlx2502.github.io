@@ -60,3 +60,6 @@ defaults:
       comments: false
       share: false
       related: true
+
+head_scripts:
+  - /assets/css/custom.css

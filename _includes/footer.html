@@ -1,3 +1,76 @@
 <div class="page__footer-copyright">
   © {{ site.time | date: "%Y" }} Anh Le • Built with ❤️
 </div>
+
+{% if page.collection == "posts" %}
+<button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+  ↑
+</button>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 24px;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 9999px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+    z-index: 999;
+  }
+
+  .back-to-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .back-to-top:hover {
+    background: #1d4ed8;
+  }
+
+  @media (max-width: 768px) {
+    .back-to-top {
+      right: 14px;
+      bottom: 18px;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    var button = document.getElementById("back-to-top");
+    if (!button) {
+      return;
+    }
+
+    var toggleVisibility = function () {
+      if (window.scrollY > 320) {
+        button.classList.add("is-visible");
+      } else {
+        button.classList.remove("is-visible");
+      }
+    };
+
+    button.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    window.addEventListener("scroll", toggleVisibility, { passive: true });
+    toggleVisibility();
+  })();
+</script>
+{% endif %}

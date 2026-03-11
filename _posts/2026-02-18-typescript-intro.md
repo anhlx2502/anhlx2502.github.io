@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "TypeScript: JavaScript with Types"
 date: 2026-03-18
 categories: [typescript, javascript, programming]

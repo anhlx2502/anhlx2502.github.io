@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Microservices Architecture: Scalable Systems"
 date: 2026-03-28
 categories: [microservices, architecture, scalability]

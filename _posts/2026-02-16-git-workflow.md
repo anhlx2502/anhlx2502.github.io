@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Git Workflow: Version Control Best Practices"
 date: 2026-03-16
 categories: [git, version-control, devops]

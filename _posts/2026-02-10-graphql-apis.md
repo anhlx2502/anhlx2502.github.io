@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "GraphQL APIs: Efficient Data Fetching"
 date: 2026-02-10
 categories: [graphql, api, backend]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "AWS Cloud Services: Infrastructure as Code"
 date: 2026-03-22
 categories: [aws, cloud, infrastructure]

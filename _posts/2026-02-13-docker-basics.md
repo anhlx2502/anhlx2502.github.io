@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Docker Cơ Bản: Containerization Made Easy"
 date: 2026-02-13
 categories: [docker, container, devops]

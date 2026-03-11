@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "React Hooks: State Management Made Simple"
 date: 2026-03-14
 categories: [react, javascript, frontend]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Node.js Express: Backend Development"
 date: 2026-02-01
 categories: [nodejs, backend, javascript]

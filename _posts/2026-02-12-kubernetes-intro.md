@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Giới thiệu về Kubernetes: Container Orchestration Platform"
 date: 2026-02-12
 categories: [kubernetes, cloud, container]

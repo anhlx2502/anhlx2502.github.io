@@ -11,34 +11,35 @@ body {
 }
 
 /* ================================
-   SIDEBAR PROFILE
-================================ */
+  body {
+    background: #f3f4f6;
 
 .sidebar {
   background: #1f2937;
   padding: 22px;
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-}
-
-/* name */
-
-.author__name {
+  .sidebar {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    color: #1f2937;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
 }
-
-/* job */
-
-.author__bio {
+  .author__name {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 600;
   color: #cbd5e1;
   font-size: 14px;
 }
 
-/* links */
-
-.author__urls li {
+  .author__bio {
+    color: #64748b;
+    font-size: 14px;
   margin: 6px 0;
 }
 
@@ -47,9 +48,9 @@ body {
   font-size: 15px;
 }
 
-.author__urls li a:hover {
-  color: #38bdf8;
-}
+  .author__urls li a {
+    color: #2563eb;
+    font-size: 15px;
 
 /* icons */
 

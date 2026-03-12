@@ -192,3 +192,18 @@ body {
   }
 
 }
+
+/* ================================
+   AVATAR
+================================ */
+
+.author__avatar img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.15);
+}
+
+/* Doi sang vuong bo goc: border-radius: 18px; */

@@ -207,3 +207,31 @@ body {
 }
 
 /* Doi sang vuong bo goc: border-radius: 18px; */
+
+/* ================================
+   HEADER LOGO
+================================ */
+
+.greedy-nav .site-title {
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 44px;
+  color: transparent;
+  overflow: hidden;
+}
+
+.greedy-nav .site-title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/anhle-logo.png") no-repeat left center;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .greedy-nav .site-title {
+    width: 150px;
+    height: 36px;
+  }
+}

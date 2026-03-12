@@ -232,8 +232,8 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("../img/anhle-logo.png") no-repeat left center;
-  background-size: 210px auto;
+  background: url("../img/anhle-logo-cropped.png") no-repeat left center;
+  background-size: 220px auto;
 }
 
 @media (max-width: 768px) {
@@ -245,6 +245,6 @@ body {
 
   .masthead .site-title::before,
   .greedy-nav .site-title::before {
-    background-size: 160px auto;
+    background-size: 165px auto;
   }
 }

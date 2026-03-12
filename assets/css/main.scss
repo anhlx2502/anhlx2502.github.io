@@ -212,16 +212,20 @@ body {
    HEADER LOGO
 ================================ */
 
-.greedy-nav .site-title {
+.masthead .site-title {
   position: relative;
   display: inline-block;
   width: 190px;
   height: 44px;
-  color: transparent;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  text-indent: -9999px;
+  white-space: nowrap;
   overflow: hidden;
 }
 
-.greedy-nav .site-title::before {
+.masthead .site-title::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -230,7 +234,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .greedy-nav .site-title {
+  .masthead .site-title {
     width: 150px;
     height: 36px;
   }

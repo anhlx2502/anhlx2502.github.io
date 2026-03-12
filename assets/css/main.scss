@@ -208,43 +208,13 @@ body {
 
 /* Doi sang vuong bo goc: border-radius: 18px; */
 
-.sidebar-brand-logo {
-  display: block;
-  width: 100%;
-  max-width: 240px;
-  height: auto;
-  margin: 18px auto 0;
-  opacity: 0.95;
-}
-
-/* ================================
-   HEADER LOGO
-================================ */
-
-.masthead .site-title {
-  position: relative;
-  display: inline-block;
-  width: 190px;
-  height: 44px;
-  color: transparent !important;
-  font-size: 0 !important;
-  line-height: 0 !important;
-  text-indent: -9999px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.masthead .site-title::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url("../img/anhle-logo.png") no-repeat left center;
-  background-size: contain;
+.masthead .site-title img {
+  max-height: 44px;
+  width: auto;
 }
 
 @media (max-width: 768px) {
-  .masthead .site-title {
-    width: 150px;
-    height: 36px;
+  .masthead .site-title img {
+    max-height: 36px;
   }
 }

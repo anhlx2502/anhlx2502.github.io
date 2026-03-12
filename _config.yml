@@ -1,4 +1,6 @@
 title: "Anh Le Blog"
+logo: "/assets/img/anhle-logo.png"
+masthead_title: ""
 name: "Anh Le"
 description: "System Engineer | Cloud | Kubernetes | Ceph"
 url: "https://anhlx2502.github.io"

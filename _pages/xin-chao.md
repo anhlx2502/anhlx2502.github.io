@@ -1,7 +1,7 @@
 ---
 title: "Xin Chào"
 layout: single
-permalink: /xinchao/
+permalink: /xin-chao/
 author_profile: true
 classes: xinchao-page
 ---

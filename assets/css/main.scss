@@ -208,20 +208,23 @@ body {
 
 /* Doi sang vuong bo goc: border-radius: 18px; */
 
-.masthead .site-title {
+.masthead .site-title,
+.greedy-nav .site-title {
   font-size: 0 !important;
   line-height: 0 !important;
 }
 
-.masthead .site-title img {
+.masthead .site-title img,
+.greedy-nav .site-title img {
   display: inline-block;
-  max-height: 44px;
+  max-height: 48px;
   width: auto;
   vertical-align: middle;
 }
 
 @media (max-width: 768px) {
-  .masthead .site-title img {
+  .masthead .site-title img,
+  .greedy-nav .site-title img {
     max-height: 36px;
   }
 }

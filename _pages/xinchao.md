@@ -1,8 +1,8 @@
 ---
-title: "Xin Chao"
+title: "Xin Chào"
 layout: single
 permalink: /xinchao/
-author_profile: false
+author_profile: true
 classes: xinchao-page
 ---
 
@@ -16,4 +16,4 @@ Nếu cần liên hệ, vui lòng nhắn tin qua Telegram hoặc Email cho tôi.
 
 **Trân trọng,**
 
-[Anh Le](https://www.facebook.com/anh.le.2679)
+Anh Le

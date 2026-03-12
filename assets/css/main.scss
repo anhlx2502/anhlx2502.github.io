@@ -208,7 +208,11 @@ body {
 
 /* Doi sang vuong bo goc: border-radius: 18px; */
 
-.author__urls-wrapper::after {
+.author__urls {
+  position: relative;
+}
+
+.author__urls::after {
   content: "";
   display: block;
   width: 100%;

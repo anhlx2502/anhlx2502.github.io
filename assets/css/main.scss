@@ -210,21 +210,41 @@ body {
 
 .masthead .site-title,
 .greedy-nav .site-title {
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  height: 56px;
+  overflow: hidden;
+  color: transparent !important;
   font-size: 0 !important;
   line-height: 0 !important;
+  text-indent: -9999px;
+  white-space: nowrap;
 }
 
-.masthead .site-title img,
-.greedy-nav .site-title img {
-  display: inline-block;
-  max-height: 48px;
-  width: auto;
-  vertical-align: middle;
+.masthead .site-title > *,
+.greedy-nav .site-title > * {
+  display: none !important;
+}
+
+.masthead .site-title::before,
+.greedy-nav .site-title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../img/anhle-logo.png") no-repeat left center;
+  background-size: 210px auto;
 }
 
 @media (max-width: 768px) {
-  .masthead .site-title img,
-  .greedy-nav .site-title img {
-    max-height: 36px;
+  .masthead .site-title,
+  .greedy-nav .site-title {
+    width: 165px;
+    height: 42px;
+  }
+
+  .masthead .site-title::before,
+  .greedy-nav .site-title::before {
+    background-size: 160px auto;
   }
 }

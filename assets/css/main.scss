@@ -208,9 +208,16 @@ body {
 
 /* Doi sang vuong bo goc: border-radius: 18px; */
 
+.masthead .site-title {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
 .masthead .site-title img {
+  display: inline-block;
   max-height: 44px;
   width: auto;
+  vertical-align: middle;
 }
 
 @media (max-width: 768px) {

@@ -2,6 +2,32 @@
   © {{ site.time | date: "%Y" }} Anh Le • Built with ❤️
 </div>
 
+<script>
+  (function () {
+    var logoId = "sidebar-brand-logo";
+    if (document.getElementById(logoId)) {
+      return;
+    }
+
+    var host =
+      document.querySelector(".author__urls-wrapper") ||
+      document.querySelector(".author__content") ||
+      document.querySelector(".sidebar");
+
+    if (!host) {
+      return;
+    }
+
+    var img = document.createElement("img");
+    img.id = logoId;
+    img.className = "sidebar-brand-logo";
+    img.src = "{{ '/assets/img/anhle-logo.png' | relative_url }}";
+    img.alt = "Anh Le Logo";
+
+    host.appendChild(img);
+  })();
+</script>
+
 {% if page.collection == "posts" %}
 <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
   <span class="back-to-top__ring" aria-hidden="true"></span>

@@ -208,19 +208,12 @@ body {
 
 /* Doi sang vuong bo goc: border-radius: 18px; */
 
-.author__urls {
-  position: relative;
-}
-
-.author__urls::after {
-  content: "";
+.sidebar-brand-logo {
   display: block;
   width: 100%;
   max-width: 240px;
-  height: 86px;
+  height: auto;
   margin: 18px auto 0;
-  background: url("../img/anhle-logo.png") no-repeat center;
-  background-size: contain;
   opacity: 0.95;
 }
 
